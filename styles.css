@@ -9,12 +9,12 @@
 .container {
   display: grid;
   grid-template-columns: 400px 1fr;
-  grid-template-rows: 1;
+  grid-template-rows: 2;
   grid-gap: 10px;
   width: 100vw;
   height: 100vh;
-	height:100%;
-	padding:0;
+  height:100%;
+  padding:0;
 }
 
 h1 {text-align: center;}
@@ -32,6 +32,29 @@ h1 {text-align: center;}
 	padding-left: 50px;
 }
 
+.reportcard {
+	grid-column: 1;
+	grid-row: 2;
+	background-color: #eee;
+	
+}
+
+	
+	/* Fonts */
+	
+.social i {
+    font-size: 20px;
+    color: #ffffff;
+    transition: background 0.3s ease;
+    background-color: #00056b;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 7.5px;
+    margin: 10px;
+}
+
 .round-img {
     display: block;
     border-radius: 50%;
@@ -47,7 +70,8 @@ h1 {text-align: center;}
     font-weight:bold;
     line-height: 2;
     padding:25px;
-
+	
+	
 -webkit-animation: glow linear 30s infinite; 
     animation: glow linear 30s infinite; } 
 @-webkit-keyframes glow { 
