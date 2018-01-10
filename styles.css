@@ -24,7 +24,7 @@ h1 {text-align: center;}
 }
 
 #hello, #contact {	
-	background-color:#252525; 	
+	background-color:#303030; 	
 	color: white;
 }
 
@@ -59,24 +59,43 @@ h1 {text-align: center;}
 }
 
 	/* Fonts */
-	
-.social i {
-    font-size: 20px;
-    color: #ffffff;
-    transition: background 0.3s ease;
-    background-color: #6E6E6E;
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    border-radius: 50%;
-    padding: 7.5px;
-    margin: 10px;
-}
 
 .social li {
 	display: inline-block;
-	
+	list-style-type: none;
 }
+
+.social i {
+  font-size: 20px;
+  color: #ffffff;
+  transition: background 0.3s ease;
+  background-color: #000;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  padding: 7.5px;
+  margin: 10px; }
+
+.social .fa-linkedin:hover {
+  background-color: #007bb5; }
+
+.social .fa-twitter:hover {
+  background-color: #55acee; }
+
+.social .fa-facebook:hover {
+  background-color: #3b5998; }
+
+.social .fa-behance:hover {
+  background-color: #053eff; }
+
+.social .fa-instagram:hover {
+  background-color: #d10869; }
+
+.social .fa-github:hover {
+  background-color: #6e5494; }
+
+
 
 .round-img {
     display: block;
